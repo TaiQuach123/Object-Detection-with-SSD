@@ -18,10 +18,28 @@ The SSD Modules contain VGG layers, the extra feature layers, the L2Norm and loc
 
 <img align = "left" src = "https://github.com/TaiQuach123/Object-Detection-with-SSD/blob/main/%2308_SSDmodel.png" height=400/>
 
-
+View the **model.py** for more architecture information
 
 ## Usage
 Firstly, clone this repository by executing:
 ```
+git clone https://github.com/TaiQuach123/Object-Detection-with-SSD.git
 ```
+
+Then, get the pretrained weights for the VGG part as initial weights to help the model converge faster
+
+```
+cd './data'
+mkdir 'weights'
+cd './weights'
+wget https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
+cd ../..
+```
+
+Finally, executing the **train.py**:
+```
+python train.py
+```
+
+
 
