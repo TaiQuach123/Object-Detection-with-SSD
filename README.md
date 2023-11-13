@@ -15,8 +15,9 @@ After having our dataset, we continue to use **make_data_path.py** (which will c
 
 ## SSD Modules
 The SSD Modules contain VGG layers, the extra feature layers, the L2Norm, and loc and conf layers.
-
-<img align = "left" src = "https://github.com/TaiQuach123/Object-Detection-with-SSD/blob/main/%2308_SSDmodel.png" height=400/>
+<p align = "center">
+<img src = "https://github.com/TaiQuach123/Object-Detection-with-SSD/blob/main/%2308_SSDmodel.png" height=400/>
+</p>
 
 View the **model.py** for more architecture information
 
